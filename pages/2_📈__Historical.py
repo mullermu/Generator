@@ -10,7 +10,7 @@ from time import sleep
 st.set_page_config(page_title="Historical", page_icon="📈")
 
 st.markdown("# Historical Plotting")
-st.image('./picture./893216.png', width=45)
+st.image('./picture/893216.png', width=45)
 
 st.write("""This page illustrates a historical dataset from sensor.""")
 
