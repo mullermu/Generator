@@ -125,7 +125,7 @@ df = df[:]
 
 # Displays the user input features
 st.subheader('1. Features for Simulation')
-st.image('picture./7068006.png', width=45)
+st.image('picture/7068006.png', width=45)
 if uploaded_file is not None:
    st.write(input_df)
 else:
@@ -157,7 +157,7 @@ prediction = load_clf2.predict(predict)
 #----------------------------------------------------------
 
 st.subheader('2. Simulation and Prediction')
-st.image('picture./2382533.png', width=45)
+st.image('picture/2382533.png', width=45)
 #st.write([prediction])
 st.write('Severity')
 st.write(prediction)
@@ -166,7 +166,7 @@ st.write(prediction)
 
 
 st.subheader('3. Chart of severity')
-st.image('picture./1807350.png', width=45)
+st.image('picture/1807350.png', width=45)
 st.write("3.1 Line chart of eeverity")
 #line_fig = px.line(uploaded_file,x='Start_time', y='prediction', title='Line chart of eeverity')
 #st.plotly_chart(line_fig)
