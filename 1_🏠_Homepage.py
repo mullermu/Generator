@@ -13,7 +13,7 @@ st.set_page_config(page_title="Homepage",page_icon="👋")
 st.sidebar.success("Select a page above.")
 
 st.write('# Generator Health Index Prediction')  #st.title('')
-st.image('picture./8716725.png', width=45)
+st.image('picture/8716725.png', width=45)
 st.markdown(
     """
     **This is a dashboard showing the *health index prediction* of generator "GT3301 at 15.15MW"**
@@ -24,7 +24,7 @@ st.markdown(
 """
 )
 
-st.image('picture./GT3301.png')
+st.image('picture/GT3301.png')
 
 
 st.sidebar.header("Input features for simulation 👨🏽‍🔬")
