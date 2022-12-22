@@ -6,3 +6,4 @@ progress_bar==8
 scikit_learn==1.2.0
 streamlit==1.16.0
 tqdm==4.64.1
+xgboost==1.7.2
